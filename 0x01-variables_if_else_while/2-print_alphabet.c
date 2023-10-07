@@ -1,19 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - This is entry point
-*
-* Return (0) means sucessful
+*main-Entry Point
+* Return: Always 0 (Success)
 */
-int main(void) 
+int main(void)
 {
 	int i;
 
-	for  (i = 97; i <= 122; i++ )
+	for (i = 97; i <= 122; i++)
 	{
 		putchar(i);
 	}
-	putchar('n')
+	putchar('\n');
 
-	return(0);
+	return (0);
+
 }
