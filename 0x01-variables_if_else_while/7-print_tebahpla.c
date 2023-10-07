@@ -12,7 +12,6 @@ int main(void)
 	{
 		putchar(i);
 	}
-	
 	putchar('\n');
 	/**
 	*for (j = 65; j <= 90; j++)
@@ -20,5 +19,4 @@ int main(void)
 	*}
 	*/
 	return (0);
-
 }
