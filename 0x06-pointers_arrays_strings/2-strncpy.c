@@ -6,19 +6,24 @@
 * @n: the value
 * Return:;wq dest
 */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	char *dest_ptr = dest;
+	int i = 0;
 
-	while (*src != '\0' && n > 0)
+	while (i < n)
 	{
-		*dest_ptr = *src;
-		dest_ptr++;
-		src++;
-		n--;
+		if (*src != '\0')
+		{
+			*dest_ptr = *src;
+			src++;
+		}
+		else
+		{
+			*dest_ptr = '*';
+		}
+		 dest_ptr++;
+		 i++;
 	}
-
 	return (dest);
-
 }
