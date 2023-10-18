@@ -25,5 +25,12 @@ char *_strncpy(char *dest, char *src, int n)
 		 dest_ptr++;
 		 i++;
 	}
+	while (i < n)
+	{
+		*dest_ptr = '\0';
+		dest_ptr++;
+		
+	}
+	
 	return (dest);
 }
