@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * _strspn - get the length of the prefix substring
+ * _strspn - Finds the length of the prefix substring
  *
- * @s: the address
- * accept: the amount of memory space to be used
+ * @s: string
+ * @accept: prefix substring
  *
- * Return: the length
+ * Return: length of the prefix
  *
  */
 
