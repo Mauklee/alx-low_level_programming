@@ -11,6 +11,7 @@ int _putchar(char c);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
 char *_strpbrk(char *s, char *accept);
 char *string_toupper(char *);
 char *cap_string(char *);
