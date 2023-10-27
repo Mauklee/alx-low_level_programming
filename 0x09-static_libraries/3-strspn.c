@@ -12,23 +12,23 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int length;
-	int isAccepted[256] = {0};
+	// unsigned int length;
+	// int isAccepted[256] = {0};
 
-	length = 0;
-	while (*accept != '\0')
-	{
-		isAccepted[(unsigned char)*accept] = 1;
-		accept++;
-	}
+	// length = 0;
+	// while (*accept != '\0')
+	// {
+	// 	isAccepted[(unsigned char)*accept] = 1;
+	// 	accept++;
+	// }
 
-	while (*s && isAccepted[(unsigned char)*s])
-	{
-		length++;
-		s++;
-	}
+	// while (*s && isAccepted[(unsigned char)*s])
+	// {
+	// 	length++;
+	// 	s++;
+	// }
 
-	return (length);
+	// return (length);
 
 }
 

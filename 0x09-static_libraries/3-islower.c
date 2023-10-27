@@ -1,7 +1,6 @@
 #include "main.h"
 
-
-char *_memcpy(char *dest, char *src, unsigned int n)
+int _islower(int c)
 {
-	//nothing in hre
+	//void
 }
