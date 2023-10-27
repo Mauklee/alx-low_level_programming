@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main"
 /**
  * _strstr - Finds the first occurence of a string in a string
  *
