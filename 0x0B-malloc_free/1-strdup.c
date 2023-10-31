@@ -16,17 +16,17 @@ char *_strdup(char *str)
 
 	if (str == 0)
 		return (NULL);
-	
+
 	count = 0;
-	
+
 	while (str[count] != '\0')
 		count++;
-	
-	string = (char *)malloc(sizeof(char)*(count+1));
+
+	string = (char *)malloc(sizeof(char) * (count + 1));
 
 	if (string == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	else
 	{
@@ -36,7 +36,7 @@ char *_strdup(char *str)
 			i++;
 		}
 	}
-	
-	return(string);
+
+	return (string);
 
 }
