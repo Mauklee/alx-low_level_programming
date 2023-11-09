@@ -5,14 +5,15 @@
 * @array: the array to be initialized
 * @size: size of the content of the array
 * @action: pointer to the function
- *
+ * @i : counter
 */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
+    unsigned int i;
 	if (array != NULL || action != NULL)
 	{
-		for(size_t i = 0; i < size; i++)
+		for(i = 0; i < size; i++)
 		{
 			action(array[i]);
 		}
